@@ -16,6 +16,10 @@ abstract class Cliente {
     fun facturar(monto: Int) {
         deuda += monto
     }
+
+    fun pagar(monto: Int) {
+        deuda -= monto
+    }
 }
 
 class ClienteNormal : Cliente() {
