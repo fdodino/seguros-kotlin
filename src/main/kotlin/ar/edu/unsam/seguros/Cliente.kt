@@ -3,7 +3,7 @@ package ar.edu.unsam.seguros
 import java.time.LocalDate
 
 // 01 - cambio en el máximo
-const val MAXIMO_FLOTA_CHICA = 8
+const val MAXIMO_FLOTA_CHICA = 5
 // 01 - cambio en el máximo
 
 abstract class Cliente {
