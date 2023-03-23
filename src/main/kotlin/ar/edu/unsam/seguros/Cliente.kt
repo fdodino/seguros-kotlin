@@ -14,7 +14,7 @@ abstract class Cliente {
     fun esMoroso() = deuda > 0
 
     fun facturar(monto: Int) {
-        deuda += monto
+        if (monto > 5) deuda += monto else throw RuntimeException("Buuuuu")
     }
 
     fun pagar(monto: Int) {
